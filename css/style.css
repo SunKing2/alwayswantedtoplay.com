@@ -1,7 +1,5 @@
 html {
     font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 body {
   font-family: Verdana;
@@ -14,7 +12,7 @@ aside, main {
   padding-right: 15px;
 }
 h1, h2, h3, h4 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'Abril Fatface', cursive;
   font-weight: normal;
 }
@@ -31,18 +29,19 @@ h1 em {
   font-weight: normal;
   color: rgb(85, 85, 85);
 }
+.site {
+  font-size: 1rem;
+}
 aside {
   width: 115px;
   float: left;
   font-style: italic;
 }
-aside * {
-  display: block;
-  //position: relative;
-  color: #333;
-}
+/* aside * should be display block */
 aside p {
   margin-top: 0;
+  display: block;
+  color: #333;
 }
 .post-date strong, .post-date em {
   color: #000;
