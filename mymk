@@ -1,5 +1,4 @@
-cat src/templates/top1.html src/templates/top2.html > src/templates/top.html
-cat src/templates/top.html src/about/index.html src/templates/bottom.html > about/index.html
+cat src/templates/top1.html src/templates/top2.html src/about/index.html src/templates/bottom.html > about/index.html
 cat src/templates/top1.html src/templates/home-style.html src/templates/top2.html src/home/index.html  src/templates/bottom.html > index.html
 sed -i "s/<\/title>/'s Home Page<\/title>/g" index.html
 sed -i 's/href="\.\./href="\./g' index.html
@@ -9,4 +8,3 @@ cat tmp1.html src/templates/home-h2h3.html tmp3.html > tmp4.html
 mv tmp4.html index.html
 rm tmp1.html
 rm tmp3.html
-

@@ -1,10 +1,23 @@
 p, ul, div {
   font-family: sans-serif;
 }
+
 ul {
   text-align: left;
   margin-left: 2em;
 }
+
 nav ul {
   font-family: serif;
+}
+
+.site:after {
+  content: "\A";
+  white-space: pre;
+}
+
+iframe {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
 }
