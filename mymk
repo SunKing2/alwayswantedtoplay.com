@@ -1,0 +1,1 @@
+cat src/templates/top.html src/about/index.html src/templates/bottom.html > about/index.html
